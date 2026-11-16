@@ -1,0 +1,17 @@
+{
+  "Model": "Model/quantizedNetwork_hdl.slx",
+  "ModelSHA256": "90c4f91b1df297a7064fede408cc74dcf3e27db39e9e8a325516ce69e228f3e0",
+  "CaptureDate": "2026-11-17",
+  "MATLABVersion": "26.2.0.3386108 (R2026b)",
+  "GoldenId": "mnist_q8_v1",
+  "Images": [
+    "model_overview.png",
+    "hdl_pipeline.png"
+  ],
+  "SimulationFrames": 26,
+  "ClassScores": 260,
+  "MaxAbsError": 0,
+  "BitExact": true,
+  "MisalignmentDetected": true,
+  "IntegrityTestsPassed": 17
+}

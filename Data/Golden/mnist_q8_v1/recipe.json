@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 1,
+  "Seed": 2.0261111E+7,
+  "RNG": "twister",
+  "Dataset": "MathWorks DigitDataset bundled with MATLAB",
+  "TrainingCount": 7500,
+  "ValidationCount": 2500,
+  "CalibrationCount": 750,
+  "ExecutionEnvironment": "cpu",
+  "Solver": "adam",
+  "InitialLearnRate": 0.01,
+  "MaxEpochs": 5,
+  "MiniBatchSize": 128,
+  "Shuffle": "every-epoch",
+  "ValidationFrequency": 30,
+  "Release": "2026b",
+  "MATLABVersion": "26.2.0.3386108 (R2026b)",
+  "Origin": "new_training_not_the_20260908_network"
+}

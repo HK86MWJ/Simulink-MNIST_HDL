@@ -1,0 +1,5 @@
+{
+  "SchemaVersion": 1,
+  "BaselineId": "mnist_q8_v1",
+  "ManifestSHA256": "ce5bc9bf4fb6b41519efabd66cb1451b49d755175acc697a37058276f28b8a96"
+}

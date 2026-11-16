@@ -1,0 +1,65 @@
+{
+  "SchemaVersion": 1,
+  "BaselineId": "mnist_q8_v1",
+  "Release": "2026b",
+  "CreatedUTC": "2026-11-11T07:15:17Z",
+  "Origin": "new_training_not_the_20260908_network",
+  "CandidateSHA256": "f70a155557274151c0c4177fd0ac37d7c8953350cf7ed75d4752b20cdffdc1a4",
+  "Files": [
+    {
+      "Name": "boundary_contract.json",
+      "SHA256": "130c09f3ef2736fc4296043391193a1aced8738ab2e4b4358c611eda1bcb6274",
+      "Bytes": 518
+    },
+    {
+      "Name": "corpus.mat",
+      "SHA256": "1b09584c539033498236b073ecd6f9eac4e9138347f4c351e81ab8327fb78b68",
+      "Bytes": 26621
+    },
+    {
+      "Name": "corpus_source.m",
+      "SHA256": "5777b28d040c052125ce0915d4310c3cce27c49c068453f543a8666c059c4d24",
+      "Bytes": 1827
+    },
+    {
+      "Name": "dataset_index.csv",
+      "SHA256": "4cc7466f86d50be854046c99c87bc0f8826be6da4fe38bcd2a2598d9a490bd0e",
+      "Bytes": 953931
+    },
+    {
+      "Name": "expected.mat",
+      "SHA256": "f7c0ff6ac616e30de32519891d326d5fe2064e468bded6cc6c9b55e7ff4c700c",
+      "Bytes": 46904
+    },
+    {
+      "Name": "golden_mnist_q8_v1.slx",
+      "SHA256": "dd36e2b66ebed37e160e835872f5e105f7802d51ccfc6eba2eba57b74e74297d",
+      "Bytes": 342878
+    },
+    {
+      "Name": "network.mat",
+      "SHA256": "99328f77c29679b0bd1e2861d6a50e6cca5726932de427ce865f8719776b3485",
+      "Bytes": 1.699153E+6
+    },
+    {
+      "Name": "recipe.json",
+      "SHA256": "1663445904427dbf1edd7b882d69683ab5d4a00f0f49bdce54d9478ff6b01d6c",
+      "Bytes": 508
+    },
+    {
+      "Name": "training_source.m",
+      "SHA256": "4d5c75ddf2a851d10f8fdca97cd34e642a0e7c4e9fbeb66238d531f91bbfaa88",
+      "Bytes": 4463
+    }
+  ],
+  "SimulinkModel": "golden_mnist_q8_v1.slx",
+  "Checks": {
+    "RepeatedInference": true,
+    "SerializationReplay": true,
+    "SimulinkExport": true,
+    "SimulinkNumericalEquivalence": false,
+    "CCodeGeneration": false,
+    "HDLCodeGeneration": false
+  },
+  "CorpusCount": 26
+}
