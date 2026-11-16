@@ -28,7 +28,10 @@ function project = configure_project()
     project.SimulinkCacheFolder = cacheFolder;
     project.SimulinkCodeGenFolder = codeFolder;
     project.DependencyCacheFile = fullfile(root,'Work','dependencies.graphml');
-    addStartupFile(project,fullfile(root,'Script','startMNISTProject.m'));
+    startupFile = fullfile(root,'Script','startMNISTProject.m');
+    if ~any(strcmpi(string(project.StartupFiles),startupFile))
+        addStartupFile(project,startupFile);
+    end
     shortcuts = ["Model/quantizedNetwork_hdl.slx","README.md", ...
         "Script/run_softmax_verification.m","Script/run_verification.m", ...
         "Script/initialize_hdl_model.m"];
